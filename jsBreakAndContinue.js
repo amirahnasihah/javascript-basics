@@ -10,6 +10,7 @@ the `break` and `continue` statements are often used in loops
 - after terminate, the execution proceeds to the next statement following the loop.
 */
 
+<!DOCTYPE html>
 <html>
 <head>
    <title> Try It Yourself </title>
