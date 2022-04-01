@@ -1,0 +1,2 @@
+# javascript-basics
+🖥️ javascript basics
