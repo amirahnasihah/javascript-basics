@@ -5,11 +5,11 @@ How To Use Conditional Operators
 */
 
 // simple condition
-let a = 10;
-let b = 20;
+let A = 10;
+let B = 20;
 
-let c = (a == b); // c = false
-let d = (b > a);  // d = true
+let C = (A == B); // C = false
+let D = (B > A);  // D = true
 
 
 // complex condition
