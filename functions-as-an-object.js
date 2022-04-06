@@ -71,7 +71,7 @@ if (time < 9){
 
 //  - to have diff handling after executing the main logic in a function.
 //  - ex; if I have an 'add' function, after calculating the sum,  how to handle it?
-//  - print out?
+//    - print out? Updaate UI? Send in email or ws??
 
 
 
@@ -96,3 +96,8 @@ let add = function(a, b, handling) {
 }
 // handling: expected as function
 // a, b: expected as inputs
+
+
+
+// different use case scenarios; ↓↓
+add
