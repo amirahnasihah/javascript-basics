@@ -39,8 +39,8 @@ return statement
 // example below 3 functions:
 let greeting = function(greetingMethod, name){
   greetingMethod(name);
-} // greetingMethod: expected to be a function bcs want to say diff things or scenario.
-  // name: 
+} // greetingMethod: expected to be a function bcs want to say diff things or scenario. ex; want this function behavior 
+  // name: want it to be a string.
 
 let sayHello = function (name){
   console.log("Hello " + name);
