@@ -64,5 +64,10 @@ if (time < 9){
 // sayGoodMorning(name)
 // sayHello(name)
 
+
+
+
+
+
 // parameters can contain inputs, and function.
-// meaning parameters act as a placeholder variable t
+// meaning parameters act as a placeholder variable to make it easy to declare it.
