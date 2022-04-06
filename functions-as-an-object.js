@@ -100,4 +100,6 @@ let add = function(a, b, handling) {
 
 
 // different use case scenarios; ↓↓
-add
+add(1, 2, sendEmail);
+add(1, 2, saveToFile);
+add(1, 2, printResult);
