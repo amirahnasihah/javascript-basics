@@ -23,19 +23,19 @@ let e = (a > b || c > b); // e = true
 let f = !e; // f = false
 
 /*
-a | b | a && b
+a | b => a && b
 
-true | true | true
-true | false | false
-false | true | false
-false | false | false
-
-
-a | b | a || b
-
-true | true | true
-true | false | true
+true | true => true
+true | false => false
+false | true => false
+false | false => false
 
 
+a | b => a || b
+
+true | true => true
+true | false => true
+false | true => true
+false | false => false
 
 */
