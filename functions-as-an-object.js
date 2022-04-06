@@ -13,4 +13,7 @@ let add = function (a,b){
 
 let addResult = add(1,2); // declare variable by calling the function ??
 console.log(addResult) // prints the var that
-// Int32Array
+// 3
+
+// prin
+console.log(add(1,2))
