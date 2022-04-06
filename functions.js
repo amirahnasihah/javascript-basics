@@ -25,4 +25,5 @@ function getFullName(firstName, lastName){
   return firstName + " " + lastName;
 }
 
-let fullName = getFullName("")
+let fullName = getFullName("Lucio", "Vivaldi");
+console.log(fullName); // call the function through declaring a variable.
