@@ -42,4 +42,8 @@ false | false => false
 
 
 // becareful about ==
-let a 
+let a = 10;
+let b = "10";
+
+let d = (a == b); // d = true
+let e = (a === b);  
