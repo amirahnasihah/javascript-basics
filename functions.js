@@ -20,4 +20,5 @@ addNumbers(2,5) // use with HTML
 
 // other example of function caller
 // by declare a var
-// where the returned value assigned to variable. and then var 
+// where the returned value assigned to variable. and then variable is used in a statement of function.
+function getFullName
