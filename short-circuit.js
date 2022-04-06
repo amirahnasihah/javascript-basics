@@ -17,7 +17,7 @@ let f = "cat" || "dog"	//"cat"
 
 // Note: only false and 0 are considered as false, other values are all considered as true.
 
-user1Name = ""
+user1Name = ""  // an empty string but with value
 user2Name = null
 user3Name = "Darren"
 
