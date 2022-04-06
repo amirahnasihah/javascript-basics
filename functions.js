@@ -7,6 +7,9 @@
 
 /* Function Definition */
 
+// defined function keyword with:
+//  - function name.
+//  - 
 
 
 
