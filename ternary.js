@@ -33,3 +33,5 @@ if (studentAScore >= studentBScore){
 // rewrite by using Ternary Operator
 
 let bestStudent = studentAScore >= studentBScore ? "a is larger" : "b is larger";
+
+console.log(bestStudent)
