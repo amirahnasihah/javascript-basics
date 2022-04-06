@@ -1,5 +1,5 @@
-// overviee of functionshas-a-data-type
+// 6.1 overview of functions-as-a-data-type
 
 
 
-// 6.2 Storing
+// 6.2 Storing Function In a Variable
