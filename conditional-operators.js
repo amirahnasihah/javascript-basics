@@ -14,4 +14,9 @@ let d = (b > a);  // d = true
 
 // complex condition
 let a = 10;
-let b =
+let b = 20;
+let c = 30;
+
+
+let d = (a > b && c > b);
+let e = ()
