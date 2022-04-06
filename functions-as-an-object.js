@@ -5,7 +5,7 @@
 /* 6.2 Storing Function In a Variable */
 
 
-// using the function variable
+/// using the function variable:
 
 let add = function (a,b){
   return a + b;
@@ -30,7 +30,7 @@ return statement
 
 /* 6.3 Passing Functions as an Input */
 
-// Passing Functions as Function Input
+/// Passing Functions as Function Input:
 //  - when we want some part of the function logic to be defined by an input(ask users)
 //  - the use of function caller can decide a part of the func logic.
 
@@ -67,7 +67,7 @@ if (time < 9){
 
 
 
-
+/// why do we want to have functions as input???
 
 // parameters can contain inputs, and function.
 // meaning parameters act as a placeholder variable to make it easy to declare it.
