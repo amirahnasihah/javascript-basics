@@ -63,3 +63,6 @@ if (time < 9){
 // shows diff scenario before 12 & after 12.
 // sayGoodMorning(name)
 // sayHello(name)
+
+// parameters can contain inputs, and function.
+// meaning parameters act as a placeholder variable t
