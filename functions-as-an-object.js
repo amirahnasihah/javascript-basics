@@ -67,7 +67,15 @@ if (time < 9){
 
 
 
-/// why do we want to have functions as input???
+/// why do we want to have functions as input???:
 
 // parameters can contain inputs, and function.
 // meaning parameters act as a placeholder variable to make it easy to declare it.
+
+let printResult = function(result){
+  console.log(result);
+}
+
+let saveToFile = function(result){
+  
+}
