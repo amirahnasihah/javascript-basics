@@ -84,4 +84,9 @@ let sendEmail = function(result){
   // Logic to send the input in email
 }
 
-let add = function(a, b, handling)
+let add = function(a, b, handling) {
+  let sum = a + b;
+  handling(sum);
+}
+// handling: expected as function
+// a, b: expected as inputs
