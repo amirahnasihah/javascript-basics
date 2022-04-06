@@ -23,4 +23,6 @@ const studentBScore = 86;
 
 let bestStudent;
 
-if ()
+if (studentAScore >= studentBScore){
+  bestStudent = "A";
+}
