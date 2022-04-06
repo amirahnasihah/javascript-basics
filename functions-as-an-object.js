@@ -30,4 +30,5 @@ return statement
 
 /* 6.3 Passing Functions as an Input */
 
-// 
+// Passing Functions as Function Input
+//  - when we want some part of the function logic to be defined by an input()
