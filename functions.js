@@ -17,7 +17,10 @@ function functionName(input1, input2, input3) {
 }
 
 // parameters act as a placeholder variables inside the function.
-// when we called the function, the variables are assigned to the arguments(value)
+// when we called the function, the variables are assigned to the arguments(value) provided.
+
+// defining function
+function writeText
 
 
 
