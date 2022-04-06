@@ -48,5 +48,8 @@ console.log(toMiles(10));
 // BMI = weight * height²
 function bmi(weight, height){
   let sqrHeight = height * height;
-  return 
+  return weight * sqrHeight;
 }
+
+// calling the function
+console.log(bmi(39, 157));
