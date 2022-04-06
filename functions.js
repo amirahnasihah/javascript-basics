@@ -9,4 +9,6 @@ function addNumbers(num1, num2){
 }
 
 // function caller
-add
+console.log(addNumbers(2,5))
+
+addNumbers(2, 5) // not work, need to use with print statement (console.log || docu)
