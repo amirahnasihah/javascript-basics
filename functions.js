@@ -9,7 +9,8 @@
 
 // defined function keyword with:
 //  - function name.
-//  - 
+//  - parameters/inputs enclossed in (para1, para2)
+
 
 
 
