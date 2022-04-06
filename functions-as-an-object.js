@@ -70,7 +70,8 @@ if (time < 9){
 /// why do we want to have functions as input???:
 
 //  - to have diff handling after executing the main logic in a function.
-//  - ex; if I have
+//  - ex; if I have an 'add' function, after calculating the sum,  how to handle it?
+//  - print out?
 
 
 
