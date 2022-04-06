@@ -39,4 +39,8 @@ function toMiles(kilometer){
   return kilometer + " km/s equals to " + miles + " miles.";
 }
 
-// reuse the function as many times as we wa
+// reuse the function as many times as we want
+// maybe by diff print statement ??
+alert(toMiles(3));
+document.write(toMiles(5));
+conso
