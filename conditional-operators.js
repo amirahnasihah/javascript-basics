@@ -23,4 +23,10 @@ let e = (a > b || c > b); // e = true
 let f = !e; // f = false
 
 /*
+a =
+b =a && b =
 
+true
+
+
+*/
