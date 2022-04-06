@@ -18,6 +18,7 @@ function functionName(input1, input2, input3) {
 
 // parameters act as a placeholder variables inside the function.
 // when we called the function, the variables are assigned to the arguments(value) provided.
+// can be called when an event happens.
 
 // defining function
 function writeText(string) {
@@ -29,7 +30,8 @@ writeText("Hello JavaScript!");
 
 
 // other way calling function.
-// can be called when an event happens
+// function dont require parameters
+
 
 
 
