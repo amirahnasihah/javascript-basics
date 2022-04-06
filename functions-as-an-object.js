@@ -18,8 +18,7 @@ console.log(addResult) // 3
 
 
 // function caller
-console.log(add(1,2)) // 3
-console.log("\n")
+console.log(add(1,2) + "\n") // 3
 
 /*
 return statement
@@ -37,6 +36,7 @@ return statement
 
 
 // importanttt!!
+// example below 3 functions:
 let greeting = function(greetingMethod, name){
   greetingMethod(name);
 }
