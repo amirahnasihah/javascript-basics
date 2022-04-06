@@ -27,3 +27,9 @@ function getFullName(firstName, lastName){
 
 let fullName = getFullName("Lucio", "Vivaldi");
 console.log(fullName); // call the function through declaring a variable.
+
+
+/* Why use Functions??? */
+
+// so we can reuse the same code many times.
+// example wan
