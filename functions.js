@@ -16,7 +16,8 @@ function functionName(input1, input2, input3) {
   // codes or statements to be executed
 }
 
-// parameters act as a pla
+// parameters act as a placeholder variables inside the function.
+// when we called the function, the variables are assigned to the arguments(value)
 
 
 
