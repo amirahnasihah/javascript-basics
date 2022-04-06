@@ -34,3 +34,8 @@ return statement
 //  - when we want some part of the function logic to be defined by an input(ask users)
 //  - the use of function caller can decide a part of the func logic.
 
+let greeting = function(greetingMethod, name){
+  greetingMethod(name);
+}
+
+let sayHello = function (name){
