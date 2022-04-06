@@ -32,10 +32,12 @@ writeText("Hello JavaScript!");
 // other way calling function.
 // function dont require parameters (optional)
 function showDialog() {
-  ale("This is JS");
+  alert("This is JS"); // with HTML
 }
 
-
+function showText() {
+  return "Helloooo"
+}
 
 
 /* The return Statement */
