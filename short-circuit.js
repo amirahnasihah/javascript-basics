@@ -21,5 +21,6 @@ user1Name = ""
 user2Name = null
 user3Name = "Darren"
 
-console.log(user1Name || "No Name Provide")
-console.log(user2Name ||)
+console.log(user1Name || "No Name Provided")
+console.log(user2Name || "No Name Provided")
+console.log(user3Name || "No Name Provided")
