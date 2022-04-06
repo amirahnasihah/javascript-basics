@@ -30,4 +30,6 @@ if (studentAScore >= studentBScore){
 }
 
 
-// rewrite by using Ternary Opera
+// rewrite by using Ternary Operator
+
+let bestStudent = studentAScore >= studentBScore ?
