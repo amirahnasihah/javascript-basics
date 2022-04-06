@@ -2,7 +2,10 @@
 
 // a function is a js method.
 // set of statements that do a task or gives/produces a value.
-// function is executed/print
+// function is executed/printed when we called (invoked) them by something.
+
+
+/* Function Definition */
 
 
 
