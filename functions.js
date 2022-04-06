@@ -36,4 +36,5 @@ console.log(fullName); // call the function through declaring a variable.
 // example want to convert kilometer to miles.
 function toMiles(kilometer){
   let miles = kilometer * 0.62137;
+  return kilometer + " km/s equals 
 }
