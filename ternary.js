@@ -25,4 +25,9 @@ let bestStudent;
 
 if (studentAScore >= studentBScore){
   bestStudent = "A";
+} else {
+  bestStudent = "B";
 }
+
+
+// rewrite by using Ternary Opera
