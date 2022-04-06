@@ -1,3 +1,10 @@
+/* JS FUNCTIONS */
+
+// a funct
+
+
+
+
 /* The return Statement */
 
 // used in function to stop its execution and to return a value to the function caller.
@@ -45,10 +52,10 @@ function toMiles(kilometer){
 /* document.write(toMiles(5)); */ // use with HTML
 console.log(toMiles(10));
 
-// BMI = weight * height²
+// BMI = weight / height²
 function bmi(weight, height){
   let sqrHeight = height * height;
-  return weight * sqrHeight;
+  return weight / sqrHeight;
 }
 
 // calling the function
