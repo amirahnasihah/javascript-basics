@@ -9,8 +9,10 @@
 
 // defined function keyword with:
 //  - function name.
-//  - parameters/inputs enclossed in (para1, para2)
+//  - parameters/inputs enclosed in (para1, para2)
+//  - block of codes or statements enclosed with {}
 
+function functionName(paramater1, input)
 
 
 
