@@ -3,3 +3,8 @@
 
 
 // 6.2 Storing Function In a Variable
+
+let add = function (a,b){
+  return a + b;
+}
+
