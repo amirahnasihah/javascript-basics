@@ -39,5 +39,9 @@ let greeting = function(greetingMethod, name){
 }
 
 let sayHello = function (name){
-  console.log("Hello")
+  console.log("Hello" + name);
+}
+
+let sayGoodMorning = function (name){
+  console.log(name + ", ")
 }
