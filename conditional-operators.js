@@ -8,5 +8,10 @@ How To Use Conditional Operators
 let a = 10;
 let b = 20;
 
-let c = (a == b);
-let d = (b > a)
+let c = (a == b); // c = false
+let d = (b > a);  // d = true
+
+
+// complex condition
+let a = 10;
+let b =
