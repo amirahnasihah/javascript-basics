@@ -69,6 +69,11 @@ if (time < 9){
 
 /// why do we want to have functions as input???:
 
+//  - to have diff handling after executing the main logic in a function.
+//  - ex; if I have
+
+
+
 // parameters can contain inputs, and function.
 // meaning parameters act as a placeholder variable to make it easy to declare it.
 
