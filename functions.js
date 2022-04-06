@@ -12,4 +12,8 @@ function addNumbers(num1, num2){
 console.log(addNumbers(2,5)) // 7
 
 addNumbers(2, 5) // not work, need to use with print statement (console.log || document.write)
-document.
+
+/*
+document.getElementById('demo').innerHTML =
+addNumbers(2,5) // use with 
+*/
