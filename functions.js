@@ -39,7 +39,7 @@ function showText() {
   return "Helloooo";
 }
 
-
+console.log(showText);
 
 
 /* The return Statement */
