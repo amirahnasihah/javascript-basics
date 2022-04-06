@@ -12,7 +12,11 @@
 //  - parameters/inputs enclosed in (para1, para2)
 //  - block of codes or statements enclosed with {}
 
-function functionName(paramater1, input)
+function functionName(input1, input2, input3) {
+  // codes or statements to be executed
+}
+
+// parameters act as a pla
 
 
 
