@@ -18,5 +18,9 @@ let b = 20;
 let c = 30;
 
 
-let d = (a > b && c > b);
-let e = ()
+let d = (a > b && c > b); // d = false
+let e = (a > b || c > b); // e = true
+let f = !e; // f = false
+
+/*
+
