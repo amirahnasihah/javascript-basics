@@ -30,7 +30,10 @@ writeText("Hello JavaScript!");
 
 
 // other way calling function.
-// function dont require parameters
+// function dont require parameters (optional)
+function showDialog() {
+  ale("This is JS");
+}
 
 
 
