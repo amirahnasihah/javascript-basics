@@ -61,3 +61,4 @@ if (time < 9){
 }
 
 // shows diff scenario before 12 & after 12.
+// sayGoodMorning(namel)
