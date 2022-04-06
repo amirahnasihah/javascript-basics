@@ -13,11 +13,12 @@ let add = function (a,b){
 
 // also function caller
 let addResult = add(1,2); // declare variable by calling the function ??
-console.log(addResult) // prints the var that
+console.log(addResult)
+// prints the var that has function
 
 
 // function caller
-console.log(add(1,2))
+console.log(add(1,2)) // 3
 
 
 /*
@@ -39,9 +40,9 @@ let greeting = function(greetingMethod, name){
 }
 
 let sayHello = function (name){
-  console.log("Hello" + name);
+  console.log("Hello " + name);
 }
 
 let sayGoodMorning = function (name){
-  console.log(name + ", ")
+  console.log(name + ", good morning!");
 }
