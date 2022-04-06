@@ -46,4 +46,7 @@ function toMiles(kilometer){
 console.log(toMiles(10));
 
 // BMI = weight * height²
-function bmi 
+function bmi(weight, height){
+  let sqrHeight = height * height;
+  return 
+}
