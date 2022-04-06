@@ -15,5 +15,8 @@ addNumbers(2, 5) // not work, need to use with print statement (console.log || d
 
 /*
 document.getElementById('demo').innerHTML =
-addNumbers(2,5) // use with 
+addNumbers(2,5) // use with HTML
 */
+
+// other example of function caller
+// by declare a var 
