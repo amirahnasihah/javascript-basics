@@ -1,6 +1,8 @@
 /* JS FUNCTIONS */
 
-// a funct
+// a function is a js method.
+// set of statements that do a task or gives/produces a value.
+// function is executed/print
 
 
 
