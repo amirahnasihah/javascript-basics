@@ -42,11 +42,12 @@ false | false => false
 
 
 // becareful about ==
-let a = 10;
-let b = "10";
+let aa = 10;
+let bb = "10";
 
-let d = (a == b); // d = true
-let e = (a === b);  // strict equality: e = false
+let dd = (a == b); // d = true
+let ee = (a === b);  // strict equality: e = false
 
 
-const z = true || f
+const z = true || false;
+console.log(z);
