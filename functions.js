@@ -20,7 +20,9 @@ function functionName(input1, input2, input3) {
 // when we called the function, the variables are assigned to the arguments(value) provided.
 
 // defining function
-function writeText
+function writeText(string) {
+  // document.getElementById("demo").innerHTML = string;  (when with HTML)
+}
 
 
 
