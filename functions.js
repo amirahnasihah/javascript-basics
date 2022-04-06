@@ -32,4 +32,8 @@ console.log(fullName); // call the function through declaring a variable.
 /* Why use Functions??? */
 
 // so we can reuse the same code many times.
-// example wan
+
+// example want to convert kilometer to miles.
+function toMiles(kilometer){
+  let miles = kilometer * 0.62137;
+}
