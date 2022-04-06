@@ -13,8 +13,8 @@ let add = function (a,b){
 
 // also function caller
 let addResult = add(1,2); // declare variable by calling the function ??
-console.log(addResult)
-// prints the var that has function
+console.log(addResult) // 3
+// prints the var that has function assigned to it.
 
 
 // function caller
@@ -35,6 +35,8 @@ return statement
 //  - when we want some part of the function logic to be defined by an input(ask users)
 //  - the use of function caller can decide a part of the func logic.
 
+
+// importanttt!!
 let greeting = function(greetingMethod, name){
   greetingMethod(name);
 }
@@ -46,3 +48,9 @@ let sayHello = function (name){
 let sayGoodMorning = function (name){
   console.log(name + ", good morning!");
 }
+
+
+var user1 = "Peter"
+var time = 9
+
+if (time < 9)
