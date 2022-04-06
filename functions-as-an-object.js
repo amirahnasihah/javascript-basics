@@ -11,3 +11,4 @@ let add = function (a,b){
   return a + b;
 }
 
+let addResult = add(1,2); // declare variable by calling the function ??
