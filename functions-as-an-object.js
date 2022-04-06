@@ -77,5 +77,11 @@ let printResult = function(result){
 }
 
 let saveToFile = function(result){
-  
+  // Logic to save in file
 }
+
+let sendEmail = function(result){
+  // Logic to send the input in email
+}
+
+let add = function(a, b, handling)
