@@ -24,6 +24,11 @@ function writeText(string) {
   // document.getElementById("demo").innerHTML = string;  (when with HTML)
 }
 
+// calling function
+writeText("Hello JavaScript!");
+
+
+
 
 
 /* The return Statement */
