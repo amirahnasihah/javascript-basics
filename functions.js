@@ -41,6 +41,9 @@ function toMiles(kilometer){
 
 // reuse the function as many times as we want
 // maybe by diff print statement ??
-/* alert(toMiles(3)); */ 
-/* document.write(toMiles(5)); */ // use wit
+/* alert(toMiles(3)); */ // with HTML
+/* document.write(toMiles(5)); */ // use with HTML
 console.log(toMiles(10));
+
+// BMI = weight * height²
+function bmi 
