@@ -53,4 +53,8 @@ let sayGoodMorning = function (name){
 var user1 = "Peter"
 var time = 9
 
-if (time < 9)
+if (time < 9){
+  greeting(sayGoodMorning, user1)
+} else{
+  greeting
+}
