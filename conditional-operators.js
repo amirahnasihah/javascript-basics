@@ -46,4 +46,7 @@ let a = 10;
 let b = "10";
 
 let d = (a == b); // d = true
-let e = (a === b);  
+let e = (a === b);  // strict equality: e = false
+
+
+const z = true || f
