@@ -14,3 +14,13 @@ console.log(c)
 
 // c should be equals to "b is larger"
 // after get the value 'a' or 'b', the we let the string into 'c'. going to assigned the value into 'c'
+
+
+// Code Rewriting
+
+const studentAScore = 72;
+const studentBScore = 86;
+
+let bestStudent;
+
+if ()
