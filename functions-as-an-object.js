@@ -39,7 +39,7 @@ return statement
 // example below 3 functions:
 let greeting = function(greetingMethod, name){
   greetingMethod(name);
-} // greetingMethod: expected to be a function bcs want to say diff things or scenario. ex; want this function behavior 
+} // greetingMethod: expected to be a function bcs want to say diff things or scenario. ex; want this function to behave depend on what are the greetingMethod we want.
   // name: want it to be a string.
 
 let sayHello = function (name){
@@ -59,3 +59,5 @@ if (time < 9){
 } else{
   greeting(sayHello, user1)
 }
+
+// shows diff scenario before 12 & after 12.
