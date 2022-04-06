@@ -39,3 +39,7 @@ false | true => true
 false | false => false
 
 */
+
+
+// becareful about ==
+let a 
