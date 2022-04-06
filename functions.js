@@ -28,6 +28,8 @@ function writeText(string) {
 writeText("Hello JavaScript!");
 
 
+// other way calling function.
+// can be called when an event happens
 
 
 
