@@ -19,7 +19,7 @@ console.log(addResult) // 3
 
 // function caller
 console.log(add(1,2)) // 3
-
+console.log("\n")
 
 /*
 return statement
@@ -50,8 +50,8 @@ let sayGoodMorning = function (name){
 }
 
 
-var user1 = "Peter" // declare var to get pri
-var time = 9
+var user1 = "Peter" // declare var to get print out
+var time = 9 //9 am
 
 if (time < 9){
   greeting(sayGoodMorning, user1)
