@@ -32,4 +32,4 @@ if (studentAScore >= studentBScore){
 
 // rewrite by using Ternary Operator
 
-let bestStudent = studentAScore >= studentBScore ?
+let bestStudent = studentAScore >= studentBScore ? "a is larger" : "b is larger";
