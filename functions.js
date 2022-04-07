@@ -20,6 +20,11 @@ function functionName(input1, input2, input3) {
 // when we called the function, the variables are assigned to the arguments(value) provided.
 // can be called when an event happens.
 
+/* NOTE:
+a placeholder is a character, word, or string of characters that 
+temporarily takes the place of the final data.
+*/
+
 // defining function
 function writeText(string) {
   // document.getElementById("demo").innerHTML = string;  (when with HTML)
