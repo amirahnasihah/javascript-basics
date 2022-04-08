@@ -54,7 +54,7 @@ let sayGoodMorning = function (name){
 var user1 = "Peter" // declare var to get print out
 var time = 9 //9 am
 
-if (time < 9){
+if (time < ){
   greeting(sayGoodMorning, user1)
 } else{
   greeting(sayHello, user1)
@@ -90,8 +90,8 @@ let sendEmail = function(result){
   // Logic to send the input in email
 }
 
-let add = function(a, b, handling) {
-  let sum = a + b;
+let add1 = function(a1, b1, handling) {
+  let sum = a1 + b1;
   handling(sum);
 }
 // handling: expected as function
@@ -100,6 +100,6 @@ let add = function(a, b, handling) {
 
 
 // different use case scenarios; ↓↓
-add(1, 2, sendEmail);
-add(1, 2, saveToFile);
-add(1, 2, printResult);
+add1(1, 2, sendEmail);
+add1(1, 2, saveToFile);
+add1(1, 2, printResult);
