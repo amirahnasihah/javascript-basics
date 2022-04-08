@@ -54,7 +54,7 @@ let sayGoodMorning = function (name){
 var user1 = "Peter" // declare var to get print out
 var time = 9 //9 am
 
-if (time < ){
+if (time < 12){
   greeting(sayGoodMorning, user1)
 } else{
   greeting(sayHello, user1)
@@ -103,3 +103,5 @@ let add1 = function(a1, b1, handling) {
 add1(1, 2, sendEmail);
 add1(1, 2, saveToFile);
 add1(1, 2, printResult);
+
+// 3
