@@ -20,7 +20,7 @@ function convertToUpperCase(inputName){
 // Leverage the "convertToUpperCase" function to help you in converting the names to upper case
 
 function greeting(inputName){
-	return input
+	return inputName.toUpperCase()
     console.log("Hello " + convertToUpperCase(inputName));
 }
 
