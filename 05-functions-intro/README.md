@@ -183,7 +183,7 @@ function bark(name, weight) {
 1. when we call the `bark` function, the arguments are assigned to the parameter names.
 2. and any time the parameters appear in the function, the values we passed in are used.
 
-![calling-function](codesnap-functions\call-function.png)
+![calling-function](/img/functions/call-function.png?raw=true)
 
 [back to top](#functions)
 
@@ -193,7 +193,7 @@ After knowing the value for each parameter — `name` is “rover” and `weight
 
 Statements in the function body are executed from top to bottom, just like all the other code. The only difference is that the parameter names `name` and `weight` have been assigned the values of the arguments you passed into the function.
 
-![parameter](codesnap-functions\2-parameter-pass.png)
+![parameter](/img/functions/2-parameter-pass.png)
 
 [back to top](#functions)
 
@@ -223,7 +223,7 @@ And those arguments then get matched up with the parameters in the function defi
 
 Can pass pretty much any JavaScript value as an argument, like a string, a boolean, or a number:
 
-![pass any value as an argument](codesnap-functions\pass-any-value.png)
+![pass any value as an argument](/img/functions/pass-any-value.png)
 
 [back to top](#functions)
 
@@ -231,7 +231,7 @@ Can pass pretty much any JavaScript value as an argument, like a string, a boole
 
 Can also pass variables as arguments, and that’s often the more common case. Here’s the same function call using variables:
 
-![pass variables as arguments](codesnap-functions\pass-variables.png)
+![pass variables as arguments](/img/functions/pass-variables.png)
 
 [back to top](#functions)
 
@@ -239,7 +239,7 @@ Can also pass variables as arguments, and that’s often the more common case. H
 
 And, can even use expressions as arguments:
 
-![pass expressions as arguments](codesnap-functions\pass-expression.png)
+![pass expressions as arguments](/img/functions/pass-expression.png)
 
 [back to top](#functions)
 
@@ -251,11 +251,11 @@ What is the difference between a parameter and an argument — are they just two
 
 - When you define a function you can _define_ it with one or more _parameters_
 
-![define function with parameters](codesnap-functions\parameters.png)
+![define function with parameters](/img/functions/parameters.png)
 
 - When you call a function, you _call_ it with _arguments_:
 
-![calling the function with arguments](codesnap-functions\arguments.png)
+![calling the function with arguments](/img/functions/arguments.png)
 
 > So you’ll only define parameters once, but probably call your function with many different arguments.
 
@@ -274,7 +274,7 @@ Which mean that each argument is _copied_ into the parameter variable.
 var age = 7;
 ```
 
-![var age = 7](codesnap-functions\1-copy-arg.png)
+![var age = 7](/img/functions/1-copy-arg.png)
 
 - 2. Now let’s declare a function addOne, with a parameter named x, that adds 1 to the value of x.
 
@@ -284,7 +284,7 @@ function addOne(x) {
 }
 ```
 
-![parameter x](codesnap-functions\2-copy-arguments.png)
+![parameter x](/img/functions/2-copy-arguments.png)
 
 - 3. Now let’s call the function addOne, pass it the variable age as the argument. The value in age is copied into the parameter x.
 
@@ -292,7 +292,7 @@ function addOne(x) {
 addOne(age);
 ```
 
-![value in age is copied into the parameter x](codesnap-functions\3-copy-arguments.png)
+![value in age is copied into the parameter x](/img/functions/3-copy-arguments.png)
 
 - 4. Now the value of x is incremented by one. But remember x is a copy, so only x is incremented, not age.
 
@@ -302,7 +302,7 @@ function addOne(x) {
 }
 ```
 
-![value x is incremented by one, but x is a copy and get incremented](codesnap-functions\4-copy-arguments.png)
+![value x is incremented by one, but x is a copy and get incremented](/img/functions/4-copy-arguments.png)
 
 **???:** when an argument is passed to a function its value is first _copied_ and then assigned to the corresponding parameter.
 
@@ -371,7 +371,7 @@ To communicate with your functions in one direction; that is, to pass arguments 
 
 But, a function can communicate back with `return` statement.
 
-![return statement](codesnap-functions\return-statement.png)
+![return statement](/img/functions/return-statement.png)
 
 Let's trace through a function call from start to finish to see what happens:
 
@@ -393,13 +393,13 @@ var theArea = calculateArea(radius);
 console.log("The area is: " + theArea);
 ```
 
-![return statement](codesnap-functions\tracing-trough-func-return-statement.png)
+![return statement](/img/functions/tracing-trough-func-return-statement.png)
 
 [back to top](#functions)
 
 ### Anatomy of a Function
 
-![Anatomy of a Function](codesnap-functions\anatomy-functions.png)
+![Anatomy of a Function](/img/functions/anatomy-functions.png)
 
 What does a function return if it doesn’t have a return statement?
 
@@ -428,7 +428,7 @@ Known as a variable's scope. Two kinds of scope: global and local.
 
 know the difference
 
-![global variables vs. local variables](codesnap-functions\variables-scope.png)
+![global variables vs. local variables](/img/functions/variables-scope.png)
 
 variable name i: iteration (can use anything!)
 
@@ -436,7 +436,7 @@ Knowing the scope of local and global variables.
 
 - Where you define your variables determines their scope; that is, where they’re visible to your code and where they aren’t.
 
-![the scope of local and global variables](codesnap-functions\local-global-scope.png)
+![the scope of local and global variables](/img/functions/local-global-scope.png)
 
 [back to top](#functions)
 
@@ -460,7 +460,7 @@ _“typically”_ because there are some advanced ways to retain locals a little
 
 If use a variable without declaring it first, that variable will be global.
 
-![declare local variables](codesnap-functions\declare-local-var.png)
+![declare local variables](/img/functions/declare-local-var.png)
 
 **????** if name a local variable the same as an existing global variable.
 
@@ -487,7 +487,7 @@ function getNumberOfItems(ordertype) {
 
 - Can put your functions anywhere in JS file. JS doesn’t care if functions are declared before or after use them.
 
-![function can be placed in anywhere](codesnap-functions/function-placement.png)
+![function can be placed in anywhere](/img/functions/function-placement.png?raw=true)
 
 [back to top](#functions)
 
