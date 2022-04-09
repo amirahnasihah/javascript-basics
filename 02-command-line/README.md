@@ -1,5 +1,7 @@
 # Command Prompt: Basic Commands (CMD)
 
+>this is common use of command line
+
 - [Command Prompt: Basic Commands (CMD)](#command-prompt-basic-commands-cmd)
   - [1. Lists Installed Drivers (driverquery)](#1-lists-installed-drivers-driverquery)
   - [2. Networking Information (ipconfig)](#2-networking-information-ipconfig)
