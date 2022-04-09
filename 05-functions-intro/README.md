@@ -1,20 +1,34 @@
 # functions
 
-- [Introduction](#introduction)
-- [Something wrong with the code??](#something-wrong-with-the-code)
-- [Meet functions](#meet-functions)
-- [How function work??](#how-function-work)
-- [But how exactly does it all come together and actually work?](#but-how-exactly-does-it-all-come-together-and-actually-work)
-  - [First, have a function](#first-have-a-function)
-  - [Calling the function](#calling-the-function)
-  - [After call the function, the body of the function does all](#after-call-the-function-the-body-of-the-function-does-all)
-  - [and when it's done](#and-when-its-done)
+- [functions](#functions)
+  - [Introduction](#introduction)
+  - [Something wrong with the code??](#something-wrong-with-the-code)
+  - [Meet functions](#meet-functions)
+  - [How function work??](#how-function-work)
+  - [But how exactly does it all come together and actually work?](#but-how-exactly-does-it-all-come-together-and-actually-work)
+    - [First, have a function](#first-have-a-function)
+    - [Calling the function](#calling-the-function)
+    - [After call the function, the body of the function does all](#after-call-the-function-the-body-of-the-function-does-all)
+    - [And when it's done](#and-when-its-done)
+  - [What can you Pass to a function??](#what-can-you-pass-to-a-function)
+    - [any value as arguments (string, boolean, number)](#any-value-as-arguments-string-boolean-number)
+    - [variables as arguments](#variables-as-arguments)
+    - [expressions as arguments](#expressions-as-arguments)
+  - [Parameters vs. Arguments](#parameters-vs-arguments)
+  - [Pass By Value](#pass-by-value)
+    - [EXPERIMENT #1: what happens when we don't pass enough arguments?](#experiment-1-what-happens-when-we-dont-pass-enough-arguments)
+    - [EXPERIMENT #2: what happens when we pass too many arguments?](#experiment-2-what-happens-when-we-pass-too-many-arguments)
+    - [EXPERIMENT #3: what happens when we have NO parameters?](#experiment-3-what-happens-when-we-have-no-parameters)
+  - [The `return` Statement](#the-return-statement)
+    - [Anatomy of a Function](#anatomy-of-a-function)
+  - [Local Variable Declarations](#local-variable-declarations)
+    - [Variable Scope (global & local)](#variable-scope-global--local)
 
 ## Introduction
 
 It give you a way to take code, write it once, and then reuse it over and over.
 
-Functions are parameterized — each time use the function, you pass it arguments so it can compute something that’s relevant to what you need.
+Functions are parameterized — each time you use the function, you pass it arguments so it can compute something that’s relevant to what you need.
 
 The key to the JavaScript programming style.
 
@@ -105,6 +119,7 @@ function bark(name, weight) {
   }
 }
 
+// ↓ calling the function ↓
 bark("rover", 23);
 bark("spot", 13);
 bark("spark", 53);
@@ -147,6 +162,7 @@ The values in the parentheses are arguments.
 > “Invoking a function”: just a fancy way of saying “calling a function.”
 
 ```js
+// ↓↓ function caller || calling function
 bark("rover", 23);
 ```
 
@@ -165,7 +181,7 @@ function bark(name, weight) {
 1. when we call the `bark` function, the arguments are assigned to the parameter names.
 2. and any time the parameters appear in the function, the values we passed in are used.
 
-![calling-function](codesnap\call-function.png)
+![calling-function](codesnap-functions\call-function.png)
 
 [back to top](#functions)
 
@@ -175,15 +191,15 @@ After knowing the value for each parameter — `name` is “rover” and `weight
 
 Statements in the function body are executed from top to bottom, just like all the other code. The only difference is that the parameter names `name` and `weight` have been assigned the values of the arguments you passed into the function.
 
-![parameter](codesnap\2-parameter-pass.png)
+![parameter](codesnap-functions\2-parameter-pass.png)
 
 [back to top](#functions)
 
-### and when it's done
+### And when it's done
 
 The logic of the body has been carried out.
 
-![function-completed](codesnap\3-done.png)
+![function-completed](codesnap-functions\3-done.png)
 
 Still confuse?
 
@@ -194,3 +210,222 @@ And arguments are what?
 - : That’s just another name for the values you pass into a function… they’re the arguments of the function call.
 
 [back to top](#functions)
+
+## What can you Pass to a function??
+
+When you call a function you pass it arguments.
+
+And those arguments then get matched up with the parameters in the function definition.
+
+### any value as arguments (string, boolean, number)
+
+Can pass pretty much any JavaScript value as an argument, like a string, a boolean, or a number:
+
+![pass any value as an argument](codesnap-functions\pass-any-value.png)
+
+[back to top](#functions)
+
+### variables as arguments
+
+Can also pass variables as arguments, and that’s often the more common case. Here’s the same function call using variables:
+
+![pass variables as arguments](codesnap-functions\pass-variables.png)
+
+[back to top](#functions)
+
+### expressions as arguments
+
+And, can even use expressions as arguments:
+
+![pass expressions as arguments](codesnap-functions\pass-expression.png)
+
+[back to top](#functions)
+
+## Parameters vs. Arguments
+
+What is the difference between a parameter and an argument — are they just two names for the same thing?
+
+- **No, they’re different**
+
+- When you define a function you can _define_ it with one or more _parameters_
+
+![define function with parameters](codesnap-functions\parameters.png)
+
+- When you call a function, you _call_ it with _arguments_:
+
+![calling the function with arguments](codesnap-functions\arguments.png)
+
+> So you’ll only define parameters once, but probably call your function with many different arguments.
+
+[back to top](#functions)
+
+## Pass By Value
+
+> That means pass-by-copy.
+
+JavaScript passes arguments to a function using _pass-by-value_.
+Which mean that each argument is _copied_ into the parameter variable.
+
+- 1. Let’s declare a variable age, and initialize it to the value 7.
+
+```js
+var age = 7;
+```
+
+![var age = 7](codesnap-functions\1-copy-arg.png)
+
+- 2. Now let’s declare a function addOne, with a parameter named x, that adds 1 to the value of x.
+
+```js
+function addOne(x) {
+  x = x + 1;
+}
+```
+
+![parameter x](codesnap-functions\2-copy-arguments.png)
+
+- 3. Now let’s call the function addOne, pass it the variable age as the argument. The value in age is copied into the parameter x.
+
+```js
+addOne(age);
+```
+
+![value in age is copied into the parameter x](codesnap-functions\3-copy-arguments.png)
+
+- 4. Now the value of x is incremented by one. But remember x is a copy, so only x is incremented, not age.
+
+```js
+function addOne(x) {
+  x = x + 1;    // incrementing x by one
+}
+```
+
+![value x is incremented by one, but x is a copy and get incremented](codesnap-functions\4-increment-x.png)
+
+**???:** when an argument is passed to a function its value is first _copied_ and then assigned to the corresponding parameter.
+
+**real impact of pass-by-value**: any changes to a parameter’s value within the function will affect only the parameter, not the original variable passed to the function. But of course, there’s an exception to every rule.
+
+> because of pass-by-value, whatever happens to a parameter in the function, stays in the functions
+
+```js
+function doIt(param) {
+  param = 2;
+}
+var test = 1;
+doIt(test);
+console.log(test);
+```
+
+[back to top](#functions)
+
+### EXPERIMENT #1: what happens when we don't pass enough arguments?
+
+- each parameter that doesn’t have a matching argument is set to undefined.
+
+```js
+function makeTea(cups, tea) {
+  console.log("Brewing " + cups + " cups of " + tea);
+}
+makeTea(3);
+
+// Brewing 3 cups of undefined
+```
+
+### EXPERIMENT #2: what happens when we pass too many arguments?
+
+- JavaScript just ignores the extra.
+- There's actually a way to get at the extra arguments, but we won't worry about that just now...
+
+```js
+function makeTea(cups, tea) {
+  console.log("Brewing " + cups + " cups of " + tea);
+}
+makeTea(3, "Earl Grey", "hey ma!", 42);
+
+// Brewing 3 cups of Earl Grey
+```
+
+### EXPERIMENT #3: what happens when we have NO parameters?
+
+- many functions have no parameters!
+
+```js
+function barkAtTheMoon() {
+  console.log("Woooooooooooooo!");
+}
+barkAtTheMoon();
+
+// Woooooooooooooo!
+```
+
+[back to top](#functions)
+
+## The `return` Statement
+
+Functions can return things too.
+
+To communicate with your functions in one direction; that is, to pass arguments to functions.
+
+But, a function can communicate back with `return` statement.
+
+![return statement](codesnap-functions\return-statement.png)
+
+Let's trace through a function call from start to finish to see what happens:
+
+```js
+function calculateArea(r) {
+  var area;
+  if (r <= 0) {
+    return 0;
+    } else {
+      area = Math.PI * r * r;
+      return area;
+      }
+}
+
+var radius = 5.2;
+var theArea = calculateArea(radius);
+// or var theArea = calculateArea(5.2)
+
+console.log("The area is: " + theArea);
+```
+
+![return statement](codesnap-functions\tracing-trough-func-return-statement.png)
+
+[back to top](#functions)
+
+### Anatomy of a Function
+
+![Anatomy of a Function](codesnap-functions\anatomy-functions.png)
+
+What does a function return if it doesn’t have a return statement?
+
+- A function without a return statement returns `undefined`.
+
+What happens if I use the same name for an argument variable as the parameter? Like if I use the name x for both?
+
+- Changing the value of the parameter x does not change the value of the argument x.
+
+[back to top](#functions)
+
+## Local Variable Declarations
+
+Declaring variables inside the function: these declarations work exactly the same within a function as they do outside a function.
+
+However, the difference between a variable declared _outside a function_ and a variable declared _inside a function_ is where that variable can be used (i.e. where in your JS code you can reference the variable.)
+
+- declared outside a function: can use it _anywhere_ in your code
+- declared inside a function: can use it only _within_ that function.
+
+Known as a variable's scope. Two kinds of scope: global and local.
+
+[back to top](#functions)
+
+### Variable Scope (global & local)
+
+know the difference
+
+![global variables vs. local variables](codesnap-functions\variables-scope.png)
+
+variable name i: iteration (can use anything!)
