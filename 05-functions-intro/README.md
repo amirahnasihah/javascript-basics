@@ -14,7 +14,7 @@
 
 It give you a way to take code, write it once, and then reuse it over and over.
 
-Functions are parameterized — each time you use the function, you pass it arguments so it can compute something that’s relevant to what you need.
+Functions are parameterized — each time use the function, you pass it arguments so it can compute something that’s relevant to what you need.
 
 The key to the JavaScript programming style.
 
