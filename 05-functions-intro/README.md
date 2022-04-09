@@ -23,6 +23,8 @@
     - [Anatomy of a Function](#anatomy-of-a-function)
   - [Local Variable Declarations](#local-variable-declarations)
     - [Variable Scope (global & local)](#variable-scope-global--local)
+  - [Variable Scope](#variable-scope)
+    - [Declare your locals](#declare-your-locals)
 
 ## Introduction
 
@@ -199,7 +201,7 @@ Statements in the function body are executed from top to bottom, just like all t
 
 The logic of the body has been carried out.
 
-![function-completed](codesnap-functions\3-done.png)
+![function-completed](/img/functions/3-done.png)
 
 Still confuse?
 
@@ -300,7 +302,7 @@ function addOne(x) {
 }
 ```
 
-![value x is incremented by one, but x is a copy and get incremented](codesnap-functions\4-increment-x.png)
+![value x is incremented by one, but x is a copy and get incremented](codesnap-functions\4-copy-arguments.png)
 
 **???:** when an argument is passed to a function its value is first _copied_ and then assigned to the corresponding parameter.
 
@@ -429,3 +431,65 @@ know the difference
 ![global variables vs. local variables](codesnap-functions\variables-scope.png)
 
 variable name i: iteration (can use anything!)
+
+Knowing the scope of local and global variables.
+
+- Where you define your variables determines their scope; that is, where they’re visible to your code and where they aren’t.
+
+![the scope of local and global variables](codesnap-functions\local-global-scope.png)
+
+[back to top](#functions)
+
+## Variable Scope
+
+- Global variables
+
+Globals live as long as the page. A global
+variable begins life when its JavaScript is loaded
+into the page.
+
+- Local variables
+
+Local variables _typically_ disappear when the function ends. They are created when your function is first called and live until the function returns (with a value or not).
+
+_“typically”_ because there are some advanced ways to retain locals a little longer
+
+[back to top](#functions)
+
+### Declare your locals
+
+If use a variable without declaring it first, that variable will be global.
+
+![declare local variables](codesnap-functions\declare-local-var.png)
+
+**????** if name a local variable the same as an existing global variable.
+
+- local "shadow" the global
+
+```js
+var beanCounter = 10;   // this is global var
+
+function getNumberOfItems(ordertype) {
+  var beanCounter = 0;  // this is local var
+  if (ordertype == "order") {
+    // do some stuff with beanCounter...
+    }
+    return beanCounter;
+}
+```
+
+- When doing this, any references to `beanCounter` within the function refer to the _local_ variable and NOT the _global_.
+- can’t see the global variable because the local version.
+
+> Note: that the local and global variables have no effect on each other: if you change one, it has no effect on the other. They are independent variables.
+
+**????** where to declare our functions? Should just put them all at the top of JavaScript files?
+
+- Can put your functions anywhere in JS file. JS doesn’t care if functions are declared before or after use them.
+
+![function can be placed in anywhere](codesnap-functions/function-placement.png)
+
+[back to top](#functions)
+
+---
+end
