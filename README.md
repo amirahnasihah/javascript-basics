@@ -1,6 +1,6 @@
 # javascript-basics
 
-1. [Programming101]()
+1. [Programming](https://github.com/amirahnasihah/javascript-basics/tree/main/02-command-line)
 2. [Command Line - npm / basic]()
 3. [JS Functions-intro](https://github.com/amirahnasihah/javascript-basics/tree/main/03-functions-intro)
 
