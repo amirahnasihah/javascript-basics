@@ -1,5 +1,10 @@
 # javascript-basics
 
+1. [Programming101]()
+2. [Command Line]()
+3. [JS Functions-intro](https://github.com/amirahnasihah/javascript-basics/tree/main/03-functions-intro)
+
+```
 - JS Overview
 - JS Introduction
 - JS Writing Code
@@ -43,3 +48,4 @@
 - JS Strict Mode
 - JS `let`
 - JS `const`
+```
