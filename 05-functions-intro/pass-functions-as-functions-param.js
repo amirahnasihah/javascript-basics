@@ -36,5 +36,8 @@ const sayHello = name => console.log("Hello, " + name)
 
 const sayGoodMorning = name => console.log("Good Morning, " + name);
 
-greeting("Lucio", sayHello); // call function then pass 2 arguments name "Lucio", sayHello
+// caller function ↓
+
+greeting("Lucio", sayHello);
+// call function then pass 2 arguments name "Lucio", function sayHello into greeting
 greeting("Lucio", sayGoodMorning);
