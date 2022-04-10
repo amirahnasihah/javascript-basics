@@ -1,4 +1,4 @@
-// Arrow Functions with Expression
+// Arrow Functions with One Parameter and Expression
 
 const functionB = (input) => {
   let result = 1;
@@ -19,4 +19,4 @@ const functionC = (width, height) => {
 
 console.log(functionC(5, 2)); // 10
 
-// Arrow Fu
+// Arrow Functions without Parameter
