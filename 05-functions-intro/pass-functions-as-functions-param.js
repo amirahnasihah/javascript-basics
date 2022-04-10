@@ -41,11 +41,12 @@ const sayGoodMorning = name => console.log("Good Morning, " + name);
 
 greeting("Lucio", sayHello);
 // parameter: name | value: "Lucio"
-// parameter: greetingFunction | value: sayHello function
+// parameter: greetingFunction | value: sayHello Function
 // actual executed code inside greeting Function: sayHello(name)
 // Hello, Lucio
 
 greeting("Beethoven", sayGoodMorning);
 // parameter: name | value: "Beethoven"
-// parameter: greetingFunction | value: sayGoodMorning function
+// parameter: greetingFunction | value: sayGoodMorning Function
 // Good Morning, Beethoven
+// actual executed code: sayGoodMorning(name)
