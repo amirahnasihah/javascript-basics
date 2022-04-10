@@ -71,34 +71,30 @@ let bob = a => a + 100;
 
 
 
-//////
+///////////////////////////////////
 
 // One param. With simple expression return is not needed:
 
-/* param => expression */
+param => expression
 
 
 // Multiple params require parentheses. With simple expression return is not needed:
 
-/* (param1, paramN) => expression */
+(param1, paramN) => expression
 
 
 
 // Multiline statements require body braces and return:
 
-/*
 param => {
   let a = 1;
   return a + param;
 }
-*/
 
 
 // Multiple params require parentheses. Multiline statements require body braces and return:
 
-/*
 (param1, paramN) => {
    let a = 1;
    return a + param1 + paramN;
 }
-*/
