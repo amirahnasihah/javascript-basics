@@ -41,7 +41,8 @@ const sayGoodMorning = name => console.log("Good Morning, " + name);
 greeting("Lucio", sayHello);
 // call function then pass 2 arguments name "Lucio", function sayHello into greeting function.
 // parameter: name | value: "Lucio"
-// parameter: greetingFunction | value: sayGoodMorning function
+// parameter: greetingFunction | value: sayHello function
 
-greeting("Lucio", sayGoodMorning);
-// parameter: name | value: ""
+greeting("Beethoven", sayGoodMorning);
+// parameter: name | value: "Beethoven"
+// parameter: greetingFunction | value: sayGoodMorning function
