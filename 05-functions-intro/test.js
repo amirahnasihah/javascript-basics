@@ -1,2 +1,1 @@
-let greet = x => console.log(x);
-greet('helllo');
+const functionA = helloworld => con
