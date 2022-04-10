@@ -26,4 +26,5 @@ function doSome(param1){
 let a = {"name": "jerry"}; // this is array
 // call the function
 doSome(a)
-console.log(a.name); // log the name property only
+console.log(a.name); // log the name property
+// Tommy
