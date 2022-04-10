@@ -39,5 +39,7 @@ const sayGoodMorning = name => console.log("Good Morning, " + name);
 // caller function ↓
 
 greeting("Lucio", sayHello);
-// call function then pass 2 arguments name "Lucio", function sayHello into greeting
+// call function then pass 2 arguments name "Lucio", function sayHello into greeting function.
+// parameter: name | value: "Lucio"
+// parameter: 
 greeting("Lucio", sayGoodMorning);
