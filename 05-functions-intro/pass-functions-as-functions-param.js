@@ -5,11 +5,11 @@ let greet = function(greetMethod, name){
 }
 
 let hello = function(name){
-  console.log("hello " + name);
+  console.log("Hello, " + name);
 }
 
 let morning = function(name){
-  console.log("morning " + name);
+  console.log("Morning, " + name);
 }
 
 
@@ -21,7 +21,7 @@ if (time < 12) {
   greet(morning, user1); // call greet function, then passing the morning function as argument and user1 variable as argument
 }
 else {
-  greet(hello, user1); // call greet function and passing the hello function as argument into the function greet body
+  greet(hello, user1 + "/"); // call greet function and passing the hello function as argument into the function greet body
 }
 
 // morning Cesc
