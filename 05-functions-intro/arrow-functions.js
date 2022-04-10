@@ -86,15 +86,19 @@ let bob = a => a + 100;
 
 // Multiline statements require body braces and return:
 
-
+/*
 param => {
   let a = 1;
   return a + param;
 }
-Copy to Clipboard
-Multiple params require parentheses. Multiline statements require body braces and return:
+*/
 
+
+// Multiple params require parentheses. Multiline statements require body braces and return:
+
+/*
 (param1, paramN) => {
    let a = 1;
    return a + param1 + paramN;
 }
+*/
