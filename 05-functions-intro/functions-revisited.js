@@ -21,4 +21,9 @@ console.log(functionC(5, 2)); // 10
 
 // Arrow Functions without Parameter
 
-const functionA = () => 
+const functionA = () => console.log("Hello World");
+
+functionA
+
+
+// Arrow Functions with Multiple Statements
