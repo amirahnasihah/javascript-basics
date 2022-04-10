@@ -8,11 +8,13 @@ const functionB = (input) => {
   return result;
 }
 
-console.log(functionB(3));
+console.log(functionB(3)); // 6
 
 
 // q 2.1.3
 
 const functionC = (width, height) => {
-  width " "
+  width * height;
 }
+
+console.log(functionC(5, 2)); // 10
