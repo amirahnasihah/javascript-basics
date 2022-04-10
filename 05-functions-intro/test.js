@@ -6,4 +6,6 @@ const functionA = function factorial(input){
   return result;
 }
 
-console.log(functionA(8))
+console.log(functionA(3))
+
+// 
