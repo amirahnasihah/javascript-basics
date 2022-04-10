@@ -32,3 +32,7 @@ functionA(); // calling function // Hello World
 
 
 // Arrow Functions with Multiple Statements
+
+const greeting = (name, greetingFunction) => greetingFunction(name);
+
+const sayHello = name => 
