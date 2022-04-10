@@ -8,4 +8,5 @@ const functionA = function factorial(input){
 
 console.log(functionA(3))
 
+// test to check 1(i) less than 3(input), so 1 + 1 (increment)
 // 
