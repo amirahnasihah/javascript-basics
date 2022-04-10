@@ -14,7 +14,7 @@ console.log(functionB(3)); // 6
 // q 2.1.3
 
 const functionC = (width, height) => {
-  width * height;
+  return width * height;
 }
 
 console.log(functionC(5, 2)); // 10
