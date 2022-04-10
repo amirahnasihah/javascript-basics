@@ -35,9 +35,9 @@ functionA(); // calling function // Hello World
 
 const greeting = (name, greetingFunction) => greetingFunction(name);
 
-const sayHello = name => console.log("Hello " + name)
+const sayHello = name => console.log("Hello, " + name)
 
-const sayGoodMorning = name => console.log("Good Morning " + name);
+const sayGoodMorning = name => console.log("Good Morning, " + name);
 
 greeting("Lucio", sayHello); // call function then pass 2 arguments name "Lucio", sayHello
 greeting("Lucio", sayGoodMorning);
