@@ -18,10 +18,10 @@ var time = 9;
 
 if (time < 12) {
   // calling function
-  greet(morning, user1); // call greet function, then passing the morning function as argument and user1 variable as argument
+  greet(morning, user1 + "\n"); // call greet function, then passing the morning function as argument and user1 variable as argument
 }
 else {
-  greet(hello, user1 + "/"); // call greet function and passing the hello function as argument into the function greet body
+  greet(hello, user1 + "\n"); // call greet function and passing the hello function as argument into the function greet body
 }
 
 // morning Cesc
