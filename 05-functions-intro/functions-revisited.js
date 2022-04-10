@@ -35,4 +35,7 @@ functionA(); // calling function // Hello World
 
 const greeting = (name, greetingFunction) => greetingFunction(name);
 
-const sayHello = name => 
+const sayHello = name => console.log("Hello " + name)
+
+const sayGoodMorning = name => console.log("Good Morning " + name);
+
