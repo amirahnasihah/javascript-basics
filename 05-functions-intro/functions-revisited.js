@@ -11,6 +11,7 @@ const functionB = (input) => {
 console.log(functionB(3)); // 6
 
 
+
 // Arrow Functions with Two Parameter
 
 const functionC = (width, height) => {
@@ -19,11 +20,15 @@ const functionC = (width, height) => {
 
 console.log(functionC(5, 2)); // 10
 
+
+
 // Arrow Functions without Parameter
 
 const functionA = () => console.log("Hello World");
 
-functionA
+functionA(); // calling function // Hello World
+
+
 
 
 // Arrow Functions with Multiple Statements
