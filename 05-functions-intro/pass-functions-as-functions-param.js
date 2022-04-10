@@ -37,12 +37,14 @@ const sayHello = name => console.log("Hello, " + name)
 const sayGoodMorning = name => console.log("Good Morning, " + name);
 
 // caller function ↓
+// call function then pass 2 arguments name "Lucio", function sayHello into greeting function.
 
 greeting("Lucio", sayHello);
-// call function then pass 2 arguments name "Lucio", function sayHello into greeting function.
 // parameter: name | value: "Lucio"
 // parameter: greetingFunction | value: sayHello function
+// Hello, Lucio
 
 greeting("Beethoven", sayGoodMorning);
 // parameter: name | value: "Beethoven"
 // parameter: greetingFunction | value: sayGoodMorning function
+// Good Morning, Beethoven
