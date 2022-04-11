@@ -23,4 +23,7 @@ for (let property in Object){
   // block of code @ do something
 }
 
-/*  */
+/* to get the property name: */
+let obj = {
+  "brand": "S"
+}
