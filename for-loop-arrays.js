@@ -12,9 +12,15 @@ for (i = 0; i < scores.length; i++) {
 
 // for...of loop in Array/String
 
+for (let element of Array){
+  // do something
+}
+
+/* to get */
+
 
 // for...in loop in an Object
 
 for (let property in Object){
-  // block of code @ do some
+  // block of code @ do something
 }
