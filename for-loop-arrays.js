@@ -16,7 +16,8 @@ for (let element of Array){
   // do something
 }
 
-/* to get */
+/* to change the original array when looping */
+for (var i)
 
 
 // for...in loop in an Object
