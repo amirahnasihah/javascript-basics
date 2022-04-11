@@ -43,5 +43,8 @@ for (property in obj) {
 
 /* to get the value */
 for (property in obj) {
-  
+  console.log(obj[property]);
 }
+
+// Bendi
+// 
