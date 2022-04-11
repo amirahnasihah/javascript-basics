@@ -32,7 +32,7 @@ console.log("Loop Finished.");
 
 // do...while loop
 // enter a loop, do something first and check the condition, if true keep running.
-// js will ex
+// js will execute the do something first. even if the condition was never met, js will running the do part once.
 
 do {
   // do something
