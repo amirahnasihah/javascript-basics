@@ -10,6 +10,10 @@ for (i = 0; i < scores.length; i++) {
 }
 
 
+
+///////////////////////////////////
+
+
 // for...of loop in Array/String
 
 for (let element of Array){
