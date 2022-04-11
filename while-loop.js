@@ -15,11 +15,17 @@ while (condition) {
 let numbers = [1,2,3,4,5];
 let i = 0;
 
-while (i < 5) {
+while (i < 3) {
   console.log(numbers[i]);
   i++;
 }
 
+console.log("Loop Finished.");
+
+// 1
+// 2
+// 3
+// Loop Finished
 
 
 ///////////////////////////////////
