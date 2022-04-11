@@ -1,6 +1,6 @@
 // for loop is used in Array @ string
 
-for (initian)
+for (initialization; condition)
 
 
 // for...of loop in Array/String
