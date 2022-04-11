@@ -25,5 +25,11 @@ for (let property in Object){
 
 /* to get the property name: */
 let obj = {
-  "brand": "S"
+  "brand": "Bendi",
+  "color": "red",
+  "price": 200
+}
+
+for (property in obj) {
+  console.log(property)
 }
