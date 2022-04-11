@@ -50,3 +50,5 @@ console.log("Loop Finished")
 
 // 1
 // Loop Finished
+
+// computer will first execute the loop body before it first check the condition.
