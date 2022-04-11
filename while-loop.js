@@ -37,3 +37,8 @@ console.log("Loop Finished.");
 do {
   // do something
 } while (condition)
+
+
+do {
+  console.log(numbers[i]);
+} while (i < 0)
