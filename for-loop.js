@@ -36,3 +36,12 @@ for (property in obj) {
   console.log(property);
 }
 
+// brand
+// color
+// price
+
+
+/* to get the value */
+for (property in obj) {
+  
+}
