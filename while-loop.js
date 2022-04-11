@@ -31,3 +31,8 @@ console.log("Loop Finished.");
 ///////////////////////////////////
 
 // do...while loop
+//
+
+do {
+  // do something
+} while (condition)
