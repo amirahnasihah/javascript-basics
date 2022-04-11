@@ -1,6 +1,8 @@
 // for loop is used in Array @ string
 
-for (initialization; condition)
+for (initialization; condition; after interation) {
+  // do something
+}
 
 
 // for...of loop in Array/String
@@ -20,3 +22,5 @@ for (var i = 0; i < 5; i++) {
 for (let property in Object){
   // block of code @ do something
 }
+
+/*  */
