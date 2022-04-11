@@ -39,6 +39,10 @@ do {
 } while (condition)
 
 
+let numb = [1,2 3 4 5]
+
 do {
   console.log(numbers[i]);
-} while (i < 0)
+} while (i < 0); // condition never met with the while condition
+
+console.log("Loop Finished")
