@@ -1,8 +1,10 @@
 // for loop is used in Array @ string
 
+// for loop syntax
 for (initialization; condition; after interation) {
   // do something
 }
+
 
 
 // for...of loop in Array/String
@@ -31,5 +33,6 @@ let obj = {
 }
 
 for (property in obj) {
-  console.log(property)
+  console.log(property);
 }
+
