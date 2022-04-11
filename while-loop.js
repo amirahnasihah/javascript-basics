@@ -1,4 +1,14 @@
 // while loop
+// keep running the piece code until a condition is 
 
 
 ///////////////////////////////////
+
+// while loop
+
+
+
+
+///////////////////////////////////
+
+// do...while loop
