@@ -52,3 +52,6 @@ console.log("Loop Finished")
 // Loop Finished
 
 // computer will first execute the loop body before it first check the condition.
+
+
+// for vs while
