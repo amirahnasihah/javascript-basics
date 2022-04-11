@@ -15,4 +15,6 @@ for (i = 0; i < scores.length; i++) {
 
 // for...in loop in an Object
 
-for (let proper)
+for (let property in Object){
+  // block of code @ do some
+}
