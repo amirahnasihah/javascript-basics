@@ -1,7 +1,5 @@
 # Command Prompt: Basic Commands (CMD)
 
->this is common use of command line
-
 - [Command Prompt: Basic Commands (CMD)](#command-prompt-basic-commands-cmd)
   - [1. Lists Installed Drivers (driverquery)](#1-lists-installed-drivers-driverquery)
   - [2. Networking Information (ipconfig)](#2-networking-information-ipconfig)
@@ -20,7 +18,9 @@
   - [15. Clearing the command](#15-clearing-the-command)
   - [16. Renaming Folder/ File](#16-renaming-folder-file)
   - [Others - npm / pip (troubleshoot)](#others---npm--pip-troubleshoot)
-    - [1. pip is broken (Python)](#1-pip-is-broken-python)
+    - [1. JSHint is warning using `const` every time](#1-jshint-is-warning-using-const-every-time)
+      - [Other way: uninstall jshint extension](#other-way-uninstall-jshint-extension)
+    - [2. pip is broken (Python)](#2-pip-is-broken-python)
   - [Basic Command Line - simple for total beginner](#basic-command-line---simple-for-total-beginner)
     - [File System Navigation](#file-system-navigation)
     - [Make File Changes](#make-file-changes)
@@ -29,7 +29,7 @@
 A quick guide to basic cmd commands.
 
 >NOTE: Command applies to Windows 10, Windows 8.1 and Windows 7.
->pic-ref: [dev.to/iamprogrammmer](https://dev.to/iamprogrammmer/command-prompt-basic-commands-you-should-know-cmd-4aj) and others
+>pic-ref/sources: [dev.to/iamprogrammmer](https://dev.to/iamprogrammmer/command-prompt-basic-commands-you-should-know-cmd-4aj); stackoverflow, google, github
 
 ## 1. Lists Installed Drivers (driverquery)
 
@@ -189,7 +189,58 @@ You can see the Test directory as Test1 directory now. There should not be anoth
 
 ## Others - npm / pip (troubleshoot)
 
-### 1. pip is broken (Python)
+### 1. [JSHint is warning using `const` every time](https://stackoverflow.com/questions/27441803/why-does-jshint-throw-a-warning-if-i-am-using-const/37472928#37472928)
+
+- When relying upon ECMAScript 6 features such as `const`, you should set this option so JSHint doesn't raise unnecessary warnings.
+
+```js
+/*jshint esversion: 6 */
+
+const Suites = {
+    Spade: 1,
+    Heart: 2,
+    Diamond: 3,
+    Club: 4
+};
+```
+
+- This option, as the name suggests, tells JSHint that your code uses ECMAScript 6 specific syntax. <http://jshint.com/docs/options/#esversion>
+
+**Edit 2017.06.11**: added another option based on this [answer](https://stackoverflow.com/a/37472928/1476885).
+
+While inline configuration works well for an individual file, you can also enable this setting for the entire project by creating a `.jshintrc` file in your project's root and adding it there.
+
+```js
+{
+  "esversion": 6
+}
+```
+
+- Got this same warning when using an export statement. I'm using VS Code and used a similar approach to Wenlong Jiang's solution.
+
+    1. User Settings
+
+    2. JSHint config
+
+    3. `"jshint.config": {}` (Edit)
+
+    4. Use double quotes when specifying "esversion"
+
+        Or copy this snippet into User Settings:
+
+```js
+"jshint.options": {
+  "esversion": 6,
+}
+```
+
+Creating a `.jshintrc` file isn't necessary if you want to configure the global jshint settings for your editor.
+
+#### Other way: uninstall jshint extension
+
+[back to top](#command-prompt-basic-commands-cmd)
+
+### 2. pip is broken (Python)
 
 Anaconda pip install mpyc Error pip-script.py is not present
 
