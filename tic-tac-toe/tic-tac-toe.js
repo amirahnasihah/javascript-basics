@@ -1,6 +1,10 @@
 /*********
 playing tic tac toe using command prompt (command line, cmd, cli, powershell)
 required to run the game: npm install prompt-sync
+
+disclaimer:
+when you press 'N', it did not stop the function. if you know how to, do fork this file. or tell me.
+thanks. do starring and share with others.
 *********/
 
 
