@@ -8,6 +8,10 @@ var str = "I am a \"double quoted\" string inside \"double quotes\"";
 console.log(str);
 
 
+// Quoting Strings with Single Quotes
+var quoteStr = 
+
+
 // Concantenate String with Plus symbol
 var myStr = "The first string. " + "The second string."
 console.log(myStr);
