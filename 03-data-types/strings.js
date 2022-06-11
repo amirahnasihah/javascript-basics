@@ -1,5 +1,6 @@
 // Declare String Variables
-var firstName = "Antho j"
+var firstName = "Anthonio";
+var lastName = "Vivaldi";
 
 
 // Concantenate String with Plus symbol
