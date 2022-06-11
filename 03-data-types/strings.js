@@ -8,7 +8,7 @@ var str = "I am a \"double quoted\" string inside \"double quotes\"";
 console.log(str);
 
 
-// Quoting Strings with Single Quotes
+// Quoting Strings with Single Quotesor Backtick ``
 var quoteStr = '<a href="https://www.google.com" target="_blank">Link</a>';
 console.log(quoteStr);
 
