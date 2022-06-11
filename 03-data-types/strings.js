@@ -22,8 +22,8 @@ CODE	OUTPUT
 \n		newline
 \r		carriage return
 \t		tab
-\b
-\f
+\b		backspa
+\f		form feed
 *****/
 
 
