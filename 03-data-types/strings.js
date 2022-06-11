@@ -1,3 +1,7 @@
+// Declare String Variables
+var firstName = "Antho j"
+
+
 // Concantenate String with Plus symbol
 var myStr = "The first string. " + "The second string."
 console.log(myStr);
