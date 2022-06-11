@@ -9,7 +9,7 @@ console.log(str);
 
 
 // Quoting Strings with Single Quotes
-var quoteStr = 
+var quoteStr = "<a href="https://www.google.com"
 
 
 // Concantenate String with Plus symbol
