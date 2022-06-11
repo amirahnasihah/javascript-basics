@@ -3,4 +3,6 @@ var myStr = "The first string. " + "The second string."
 console.log(myStr);
 
 // Concantenate String with Plus Operator
-var myStr1 = ""
+var myStr1 = "I come first. ";
+myStr1 += "I come second.";
+console.log(myStr1);
