@@ -15,13 +15,13 @@ console.log(quoteStr);
 
 // Escape Sequences
 /*****
-CODE OUTPUT
-\'		
-\"
-\\
-\n
-\r
-\t
+CODE	OUTPUT
+\'		single quote
+\"		double quote
+\\		backslash
+\n		newline
+\r		carriage return
+\t		tab
 \b
 \f
 *****/
