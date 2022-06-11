@@ -13,6 +13,10 @@ var quoteStr = '<a href="https://www.google.com" target="_blank">Link</a>';
 console.log(quoteStr);
 
 
+// Escape Sequences
+/*****
+
+
 // Concantenate String with Plus symbol
 var myStr = "The first string. " + "The second string."
 console.log(myStr);
