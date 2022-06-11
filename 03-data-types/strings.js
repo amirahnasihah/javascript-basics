@@ -15,6 +15,11 @@ console.log(quoteStr);
 
 // Escape Sequences
 /*****
+CODE	OUTPUT
+\'
+\"
+
+*****/
 
 
 // Concantenate String with Plus symbol
