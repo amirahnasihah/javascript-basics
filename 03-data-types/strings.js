@@ -27,11 +27,15 @@ CODE	OUTPUT
 *****/
 
 
-// Concantenate String with Plus symbol
+// Concantenating Strings with Plus Operator
 var myStr = "The first string. " + "The second string."
 console.log(myStr);
 
-// Concantenate String with Plus Operator
+// Concantenate Strings with Plus Equals Operator
 var myStr1 = "I come first. ";
 myStr1 += "I come second.";
 console.log(myStr1);
+
+
+// Constr
+
