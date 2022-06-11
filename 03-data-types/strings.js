@@ -4,7 +4,8 @@ var lastName = "Vivaldi";
 
 
 // Escaping Literal Quotes
-var str = "I am a "double quoted" string inside "double quotes"";
+var str = "I am a \"double quoted\" string inside \"double quotes\"";
+console.log(str);
 
 
 // Concantenate String with Plus symbol
