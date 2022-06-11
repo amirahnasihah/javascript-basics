@@ -2,8 +2,10 @@
 var firstName = "Anthonio";
 var lastName = "Vivaldi";
 
+
 // Escaping Literal Quotes
-var str = "I a"
+var str = "I am a "double quoted" string inside "double quotes"";
+
 
 // Concantenate String with Plus symbol
 var myStr = "The first string. " + "The second string."
