@@ -37,5 +37,5 @@ myStr1 += "I come second.";
 console.log(myStr1);
 
 
-// Constr
+// Constructing Strings with Variables
 
