@@ -7,4 +7,4 @@
 var myDate = new Date();
 console.log(myDate);
 
-// JS
+// JS Date Get Methods
