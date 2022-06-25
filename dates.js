@@ -1,0 +1,1 @@
+var myDate = new Date();
