@@ -8,3 +8,4 @@ var myDate = new Date();
 console.log(myDate);
 
 // JS Date Get Methods
+// getDate()
