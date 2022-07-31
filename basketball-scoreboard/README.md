@@ -1,1 +1,1 @@
-# Baskrtball Scoreboard
+# Basketball Scoreboard
