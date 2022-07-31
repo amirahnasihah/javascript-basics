@@ -1,4 +1,9 @@
-# javascript-basics
+# DEMO 🕹️
+
+01. [calculator challenge](https://calculator-amirahnasihah.netlify.app/)
+02. [passenger count](https://counter-amirahnasihah.netlify.app/)
+
+# Javascript Basics
 
 1. [Programming](https://github.com/amirahnasihah/javascript-basics/tree/main/01-programming)
 2. [Command Line - npm / basic](https://github.com/amirahnasihah/javascript-basics/tree/main/02-command-line)
